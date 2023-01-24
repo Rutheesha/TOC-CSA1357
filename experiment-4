@@ -7,7 +7,7 @@ int main()
    printf("enter the string to be checked: ");
    scanf("%s",str);
    int lenght = strlen(str);
-   if(str[0] == 'a' && str[lenght-1] == 'a')
+   if (str[0]==str[length-1]&&str[1]==str[length-2])
    {
       printf("Accepted");
    }
